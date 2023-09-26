@@ -1,0 +1,148 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+/* Apply specified fonts for different elements */
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-size: 100px;
+  color: #4f4d53;
+}
+
+h2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-size: 64px;
+  color: #e8be02;
+}
+
+h3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-size: 20px;
+  color: #e8be02;
+}
+
+h4 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #ffffff;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: #4f4d53;
+}
+
+.banner {
+  background-color: #4f4d53;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 100px;
+}
+
+.hero {
+  position: relative;
+  overflow: hidden;
+  /* margin-bottom: 20px; */
+}
+
+.hero img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+}
+
+.hero-text h1 {
+  /* font-family: "Roboto", sans-serif; */
+  /* font-weight: 900; */
+  font-size: 75px;
+}
+
+.team-members {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  margin-top: -40px;
+}
+
+.avatar {
+  width: 180px;
+  height: 180px;
+  overflow: hidden;
+  border-radius: 50%;
+  margin: 30px;
+}
+
+.avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.how-it-started {
+  text-align: center;
+  margin-top: -130px;
+  padding: 20px;
+}
+
+.yellow-band {
+  height: 12px;
+  background-color: #e8be02;
+}
+
+/* Styles for the footer */
+.footer {
+  background-color: #4f4d53;
+  height: 320px;
+  color: white;
+  margin-top: 80px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: center;
+  padding: 20px 69px;
+}
+
+.footer-column {
+  flex: 1;
+  padding: 0 20px;
+}
+
+.footer-column h3 {
+  font-size: 20px;
+}
+
+.footer-column h4 {
+  font-size: 14px;
+}
